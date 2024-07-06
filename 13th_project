@@ -1,0 +1,7 @@
+func Len(s string) int {
+    ln := 0
+    for range s {
+        ln++
+    }
+    return ln
+}
