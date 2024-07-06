@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+    var N int
+    _, err := fmt.Scanf("%d", &N)
+
+    for i := N; i >= 1; i-- {
+        fmt.Println(i)
+    }
+}
