@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	var number int
+	_, err := fmt.Scanf("%d", &number)
+
+	if number%2 == 0 {
+		fmt.Println("Число четное.")
+	} else {
+		fmt.Println("Число нечетное.")
+	}
+}
